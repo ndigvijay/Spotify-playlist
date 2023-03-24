@@ -1,0 +1,93 @@
+91
+create_playlist
+create_music_queue
+add_song 1 -1
+add_song 2 -1
+add_song 3 -2
+add_song 4 -2
+display_playlist
+add_song 5 4
+add_song 6 3
+add_song 7 8
+display_playlist
+delete_playlist
+create_playlist
+add_song 1 -2
+add_song 2 -2
+add_song 3 -1
+display_playlist
+add_song 4 1
+add_song 5 2
+add_song 6 8
+display_playlist
+delete_playlist
+create_playlist
+add_song 3 4
+add_song 4 3
+display_playlist
+add_song 1 -1
+add_song 2 -1
+add_song 3 -2
+add_song 4 -2
+display_playlist
+delete_song 1
+delete_song 2
+delete_song 4
+display_playlist
+add_song 1 -1
+add_song 2 -2
+add_song 5 3
+add_song 4 -2
+display_playlist
+search_and_play 5
+search_and_play 1
+search_and_play 7
+display_playlist
+search_and_play 2
+search_and_play 7
+play_next
+play_next
+play_next
+play_previous
+play_previous
+play_previous
+display_playlist
+insert_to_queue 23
+insert_to_queue 46
+insert_to_queue 12
+play_previous
+play_next
+play_next
+play_next
+play_next
+display_playlist
+delete_playlist
+create_playlist
+add_song 1 -1
+add_song 2 -2
+add_song 5 3
+add_song 4 -2
+display_playlist
+play_next
+delete_playlist
+create_playlist
+add_song 1 -1
+add_song 2 -2
+add_song 5 3
+add_song 4 -2
+display_playlist
+play_previous
+shuffle 0
+display_playlist
+shuffle 1
+display_playlist
+shuffle 2
+display_playlist
+shuffle -1
+display_playlist
+debug 1 2
+debug 5 6
+debug 5 3
+display_playlist
+clear_music_queue
+delete_playlist
